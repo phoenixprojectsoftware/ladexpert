@@ -1,0 +1,190 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlcsg.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard" -low -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       2 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.03 seconds)
+CSGBrush:
+ (0.13 seconds)
+
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad
+ - Contains 1 used texture, 14.29 percent of map (3116 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\fake.wad
+ - Contains 6 used textures, 85.71 percent of map (119 textures in wad)
+
+Wad files required to run the map: "halflife.wad;fake.wad;"
+Texture usage is at 0.15 mb (of 32.00 mb MAX)
+0.41 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlbsp.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       2 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-467,-377,-461)-(-462,-374,-453) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+94 (0.07 seconds)
+Warning: === LEAK in hull 0 ===
+Entity cycler @ (-410,-429,-476)
+Error: 
+  A LEAK is a hole in the map, where the inside of it is exposed to the
+(unwanted) outside region.  The entity listed in the error is just a helpful
+indication of where the beginning of the leak pointfile starts, so the
+beginning of the line can be quickly found and traced to until reaching the
+outside. Unless this entity is accidentally on the outside of the map, it
+probably should not be deleted.  Some complex rotating objects entities need
+their origins outside the map.  To deal with these, just enclose the origin
+brush with a solid world brush
+
+Leak pointfile generated
+
+SolidBSP [hull 1] 69 (0.02 seconds)
+Warning: === LEAK in hull 1 ===
+Entity cycler @ (-410,-429,-476)
+SolidBSP [hull 2] 69 (0.02 seconds)
+Warning: === LEAK in hull 2 ===
+Entity info_player_start @ ( -64,-382,-476)
+SolidBSP [hull 3] 80 (0.02 seconds)
+Warning: === LEAK in hull 3 ===
+Entity cycler @ (-410,-429,-476)
+Reduced 239 clipnodes to 230
+Reduced 40 texinfos to 34
+Reduced 7 texdatas to 7 (312 bytes to 312)
+Reduced 1040 planes to 181
+FixBrinks:
+Increased 230 clipnodes to 230.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              2/512          128/32768    ( 0.4%)
+planes            181/32768       3620/655360   ( 0.6%)
+vertexes          390/65535       4680/786420   ( 0.6%)
+nodes             101/32767       2424/786408   ( 0.3%)
+texinfos           34/32767       1360/1310680  ( 0.1%)
+faces             266/65535       5320/1310700  ( 0.4%)
+* worldfaces      250/32768          0/0        ( 0.8%)
+clipnodes         230/32767       1840/262136   ( 0.7%)
+leaves             65/32760       1820/917280   ( 0.2%)
+* worldleaves      57/8192           0/0        ( 0.7%)
+marksurfaces      317/65535        634/131070   ( 0.5%)
+surfedges        1394/512000      5576/2048000  ( 0.3%)
+edges             702/256000      2808/1024000  ( 0.3%)
+texdata          [variable]        312/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       2273/2097152  ( 0.1%)
+* AllocBlock        2/64             0/0        ( 3.1%)
+7 textures referenced
+=== Total BSP file data space used: 32795 bytes ===
+Wad files required to run the map: "halflife.wad;fake.wad;"
+0.64 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard.log for the cause.
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\gordoakuard.log for the cause.
+
+-----   END   hlrad -----
+
+
+

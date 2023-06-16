@@ -1,0 +1,263 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlcsg.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa" -low -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       2 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (7.59 seconds)
+CSGBrush:
+ (3.77 seconds)
+
+added 16 additional animating textures.
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad
+ - Contains 63 used textures, 96.92 percent of map (3116 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad
+ - Contains 1 used texture, 1.54 percent of map (32 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\fake.wad
+ - Contains 1 used texture, 1.54 percent of map (119 textures in wad)
+
+Wad files required to run the map: "halflife.wad;liquids.wad;fake.wad;"
+Texture usage is at 0.46 mb (of 32.00 mb MAX)
+15.69 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlbsp.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       2 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-850,-3405,110)-(-849,-3325,186) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-850,-3374,76)-(-849,-3325,123) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-852,-3384,12)-(-851,-3362,133) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-852,-3421,4)-(-851,-3407,82) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-856,-3353,38)-(-852,-3346,60) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-857,-3330,49)-(-853,-3325,68) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-876,-3354,38)-(-872,-3347,60) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-878,-3331,54)-(-872,-3327,68) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-894,-3394,12)-(-893,-3361,192) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-894,-3421,4)-(-893,-3407,82) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1022,-3740,60)-(-1022,-3736,65) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1053,-3742,47)-(-1033,-3741,48) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1036,-3750,47)-(-1036,-3748,50) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1050,-3749,47)-(-1050,-3747,50) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-795,-3997,56)-(-795,-3986,64) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-821,-3989,43)-(-821,-3978,52) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-693,-3981,32)-(-688,-3980,40) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-693,-3981,26)-(-688,-3980,27) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-826,-3984,32)-(-821,-3980,40) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-826,-3984,26)-(-821,-3980,27) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1199,-3966,61)-(-1187,-3966,64) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1200,-3995,61)-(-1200,-3969,64) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1200,-3995,21)-(-1200,-3983,24) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1202,-3995,21)-(-1172,-3995,34) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1202,-3995,9)-(-1169,-3995,21) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1200,-3990,1)-(-1199,-3966,4) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1202,-3995,4)-(-1168,-3995,9) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1200,-3992,1)-(-1172,-3992,4) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1428 (3.73 seconds)
+Warning: === LEAK in hull 0 ===
+Entity func_door_rotating @ (-1396,-3712,  49)
+Error: 
+  A LEAK is a hole in the map, where the inside of it is exposed to the
+(unwanted) outside region.  The entity listed in the error is just a helpful
+indication of where the beginning of the leak pointfile starts, so the
+beginning of the line can be quickly found and traced to until reaching the
+outside. Unless this entity is accidentally on the outside of the map, it
+probably should not be deleted.  Some complex rotating objects entities need
+their origins outside the map.  To deal with these, just enclose the origin
+brush with a solid world brush
+
+Leak pointfile generated
+
+SolidBSP [hull 1] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1038,-3724,95)-(-1038,-3720,101) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1069,-3766,80)-(-1066,-3725,86) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-944,-3977,90)-(-811,-3971,100) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-672,-3963,36)-(-672,-3957,63) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-672,-3981,36)-(-672,-3971,63) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-944,-3931,36)-(-944,-3925,63) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-944,-3944,36)-(-944,-3939,63) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-945,-3981,36)-(-944,-3952,63) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-945,-3981,36)-(-944,-3944,63) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1216,-3981,91)-(-1215,-3950,100) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+710 (1.58 seconds)
+Warning: === LEAK in hull 1 ===
+Entity light @ ( 926,-3069, 128)
+SolidBSP [hull 2] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1054,-3708,91)-(-1054,-3704,97) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1085,-3782,76)-(-1082,-3709,80) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-960,-3915,32)-(-960,-3909,59) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-960,-3928,32)-(-960,-3923,59) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-961,-3965,32)-(-960,-3936,59) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-961,-3965,32)-(-960,-3928,59) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1232,-3965,87)-(-1231,-3934,96) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+619 (1.00 seconds)
+Warning: === LEAK in hull 2 ===
+Entity light @ ( 926,-3069, 128)
+SolidBSP [hull 3] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-836,-3351,42)-(-836,-3341,74) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1069,-3767,62)-(-1047,-3725,68) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-672,-3963,18)-(-672,-3957,45) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-672,-3981,18)-(-672,-3971,45) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-944,-3931,18)-(-944,-3925,45) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-944,-3944,18)-(-944,-3939,45) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-945,-3981,18)-(-944,-3952,45) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-945,-3981,18)-(-944,-3944,45) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-944,-3981,18)-(-944,-3944,27) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1180,-3974,31)-(-1179,-3949,43) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1180,-3967,23)-(-1179,-3949,32) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1180,-3967,22)-(-1179,-3949,23) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1180,-3976,31)-(-1179,-3974,43) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+843 (1.76 seconds)
+Warning: === LEAK in hull 3 ===
+Entity env_explosion @ (-1155,-3964,  64)
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1187,-3625,53)-(1188,-3577,141) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1203,-3641,53)-(1204,-3561,137) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1203,-3641,-31)-(1204,-3571,53) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1187,-3625,53)-(1188,-3561,123) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1187,-3625,-17)-(1188,-3561,53) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1189,-3444,53)-(1189,-3430,141) in hull 1 of model 43 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1189,-3436,-35)-(1189,-3430,50) in hull 1 of model 43 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1205,-3452,-31)-(1205,-3446,46) in hull 2 of model 43 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1205,-3452,60)-(1205,-3446,137) in hull 2 of model 43 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1189,-3436,-17)-(1189,-3430,32) in hull 3 of model 43 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (1189,-3436,74)-(1189,-3430,123) in hull 3 of model 43 (entity: classname "func_wall", origin "", targetname "")
+Reduced 6027 clipnodes to 5758
+Reduced 1085 texinfos to 929
+Reduced 65 texdatas to 64 (2864 bytes to 2820)
+Reduced 15188 planes to 4076
+FixBrinks:
+Increased 5758 clipnodes to 5773.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             67/512         4288/32768    (13.1%)
+planes           4076/32768      81520/655360   (12.4%)
+vertexes         6500/65535      78000/786420   ( 9.9%)
+nodes            2739/32767      65736/786408   ( 8.4%)
+texinfos          929/32767      37160/1310680  ( 2.8%)
+faces            4709/65535      94180/1310700  ( 7.2%)
+* worldfaces     2955/32768          0/0        ( 9.0%)
+clipnodes        5773/32767      46184/262136   (17.6%)
+leaves           1873/32760      52444/917280   ( 5.7%)
+* worldleaves     938/8192           0/0        (11.5%)
+marksurfaces     5744/65535      11488/131070   ( 8.8%)
+surfedges       23177/512000     92708/2048000  ( 4.5%)
+edges           11787/256000     47148/1024000  ( 4.6%)
+texdata          [variable]       2820/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]      17199/2097152  ( 0.8%)
+* AllocBlock       11/64             0/0        (17.2%)
+64 textures referenced
+=== Total BSP file data space used: 630875 bytes ===
+Wad files required to run the map: "halflife.wad;liquids.wad;fake.wad;"
+21.76 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa.log for the cause.
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\dcoororejkgjuiorejfewa.log for the cause.
+
+-----   END   hlrad -----
+
+
+

@@ -1,0 +1,74 @@
+{
+"classname" "worldspawn"
+"sounds" "1"
+"MaxRange" "4096"
+"mapversion" "220"
+"wad" "\program files (x86)\steam\steamapps\common\half-life\valve\cached.wad;\program files (x86)\steam\steamapps\common\half-life\valve\decals.wad;\program files (x86)\steam\steamapps\common\half-life\valve\fonts.wad;\program files (x86)\steam\steamapps\common\half-life\valve\gfx.wad;\program files (x86)\steam\steamapps\common\half-life\valve\liquids.wad;\program files (x86)\steam\steamapps\common\half-life\valve\spraypaint.wad;\program files (x86)\steam\steamapps\common\half-life\valve\tempdecal.wad;\program files (x86)\steam\steamapps\common\half-life\valve\xeno.wad;\program files (x86)\steam\steamapps\common\half-life\valve\halflife.wad;\program files (x86)\steam\steamapps\common\half-life\valve\fake.wad"
+{
+( -1664 -576 -576 ) ( -1216 -576 -576 ) ( -1216 -576 -640 ) ROUPA [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( -1664 -128 -640 ) ( -1216 -128 -640 ) ( -1216 -128 -576 ) ROUPA [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( -1664 -576 -576 ) ( -1664 -576 -640 ) ( -1664 -128 -640 ) ROUPA [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( -1216 -128 -576 ) ( -1216 -128 -640 ) ( -1216 -576 -640 ) ROUPA [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( -1216 -576 -576 ) ( -1664 -576 -576 ) ( -1664 -128 -576 ) ROUPA [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1 
+( -1216 -128 -640 ) ( -1664 -128 -640 ) ( -1664 -576 -640 ) ROUPA [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1 
+}
+}
+{
+"classname" "path_track"
+"angles" "0 0 0"
+"targetname" "path1"
+"target" "path2"
+"speed" "1"
+"origin" "853 -256 -594"
+}
+{
+"classname" "path_track"
+"angles" "0 0 0"
+"targetname" "path2"
+"target" "path1"
+"speed" "1"
+"origin" "-1208 -256 -585"
+}
+{
+"classname" "func_tracktrain"
+"spawnflags" "2"
+"rendercolor" "0 0 0"
+"wheels" "50"
+"height" "4"
+"speed" "64"
+"volume" "10"
+"targetname" "t1"
+{
+( 0 -640 -192 ) ( 512 -640 -192 ) ( 512 -640 -640 ) QUADRO [ 1 0 0 0 ] [ 0 0 -1 -54.8571 ] 0 4 3.5 
+( 0 -128 -640 ) ( 512 -128 -640 ) ( 512 -128 -192 ) QUADRO [ 1 0 0 0 ] [ 0 0 -1 -54.8571 ] 0 4 3.5 
+( 0 -640 -192 ) ( 0 -640 -640 ) ( 0 -128 -640 ) QUADRO [ 0 1 0 32 ] [ 0 0 -1 -54.8571 ] 0 4 3.5 
+( 512 -128 -192 ) ( 512 -128 -640 ) ( 512 -640 -640 ) QUADRO [ 0 1 0 32 ] [ 0 0 -1 -54.8571 ] 0 4 3.5 
+( 512 -640 -192 ) ( 0 -640 -192 ) ( 0 -128 -192 ) QUADRO [ 1 0 0 0 ] [ 0 -1 0 -32 ] 0 4 4 
+( 512 -128 -640 ) ( 0 -128 -640 ) ( 0 -640 -640 ) QUADRO [ 1 0 0 0 ] [ 0 -1 0 -32 ] 0 4 4 
+}
+}
+{
+"classname" "path_track"
+"angles" "0 0 0"
+"targetname" "path1"
+"target" "path2"
+"speed" "1"
+"origin" "-1208 -256 -594"
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "1058 -256 -505"
+}
+{
+"classname" "func_wall"
+"rendercolor" "0 0 0"
+{
+( 896 -576 -576 ) ( 1344 -576 -576 ) ( 1344 -576 -640 ) ROUPA [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( 896 -128 -640 ) ( 1344 -128 -640 ) ( 1344 -128 -576 ) ROUPA [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( 896 -576 -576 ) ( 896 -576 -640 ) ( 896 -128 -640 ) ROUPA [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( 1344 -128 -576 ) ( 1344 -128 -640 ) ( 1344 -576 -640 ) ROUPA [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( 1344 -576 -576 ) ( 896 -576 -576 ) ( 896 -128 -576 ) ROUPA [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1 
+( 1344 -128 -640 ) ( 896 -128 -640 ) ( 896 -576 -640 ) ROUPA [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1 
+}
+}

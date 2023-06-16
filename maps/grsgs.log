@@ -1,0 +1,187 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlcsg.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs" -low -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       2 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.02 seconds)
+CSGBrush:
+ (0.05 seconds)
+
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad
+ - Contains 4 used textures, 100.00 percent of map (3116 textures in wad)
+
+Wad files required to run the map: "halflife.wad;"
+Texture usage is at 0.10 mb (of 32.00 mb MAX)
+0.49 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlbsp.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       2 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 25 (0.01 seconds)
+Warning: === LEAK in hull 0 ===
+Entity path_corner @ (  48,  24, 200)
+Error: 
+  A LEAK is a hole in the map, where the inside of it is exposed to the
+(unwanted) outside region.  The entity listed in the error is just a helpful
+indication of where the beginning of the leak pointfile starts, so the
+beginning of the line can be quickly found and traced to until reaching the
+outside. Unless this entity is accidentally on the outside of the map, it
+probably should not be deleted.  Some complex rotating objects entities need
+their origins outside the map.  To deal with these, just enclose the origin
+brush with a solid world brush
+
+Leak pointfile generated
+
+SolidBSP [hull 1] 29 (0.00 seconds)
+Warning: === LEAK in hull 1 ===
+Entity path_corner @ (  48,  24, 232)
+SolidBSP [hull 2] 29 (0.03 seconds)
+Warning: === LEAK in hull 2 ===
+Entity path_corner @ (  48,  24, 232)
+SolidBSP [hull 3] 29 (0.01 seconds)
+Warning: === LEAK in hull 3 ===
+Entity path_corner @ (  48,  24, 232)
+Reduced 120 clipnodes to 114
+Reduced 12 texinfos to 12
+Reduced 4 texdatas to 4 (180 bytes to 180)
+Reduced 130 planes to 65
+FixBrinks:
+Increased 114 clipnodes to 114.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              3/512          192/32768    ( 0.6%)
+planes             65/32768       1300/655360   ( 0.2%)
+vertexes          128/65535       1536/786420   ( 0.2%)
+nodes              36/32767        864/786408   ( 0.1%)
+texinfos           12/32767        480/1310680  ( 0.0%)
+faces             122/65535       2440/1310700  ( 0.2%)
+* worldfaces      116/32768          0/0        ( 0.4%)
+clipnodes         114/32767        912/262136   ( 0.3%)
+leaves             32/32760        896/917280   ( 0.1%)
+* worldleaves      19/8192           0/0        ( 0.2%)
+marksurfaces      122/65535        244/131070   ( 0.2%)
+surfedges         552/512000      2208/2048000  ( 0.1%)
+edges             277/256000      1108/1024000  ( 0.1%)
+texdata          [variable]        180/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       1619/2097152  ( 0.1%)
+* AllocBlock        1/64             0/0        ( 1.6%)
+4 textures referenced
+=== Total BSP file data space used: 13979 bytes ===
+Wad files required to run the map: "halflife.wad;"
+0.60 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs.log for the cause.
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\lad\maps\grsgs.log for the cause.
+
+-----   END   hlrad -----
+
+
+

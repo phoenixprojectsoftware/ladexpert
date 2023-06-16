@@ -1,0 +1,215 @@
+{
+"classname" "worldspawn"
+"skyname" "space"
+"angles" "0 0 0"
+"mapversion" "220"
+"wad" "\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\liquids.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad;\Program Files (x86)\Steam\steamapps\common\Half-Life\valve\fake.wad"
+"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
+{
+( 768 256 -384 ) ( 768 256 -287 ) ( 768 320 -384 ) CITYWALL10 [ 0 -1 -0 0 ] [ 0 -0 1 122.722 ] 180 0.7 0.757813
+( -512 320 -384 ) ( -512 320 -287 ) ( -512 256 -384 ) CITYWALL10 [ 0 -1 -0 0 ] [ 0 -0 1 122.722 ] 180 0.7 0.757813
+( 768 320 -287 ) ( -512 320 -287 ) ( 768 320 -384 ) CITYWALL10 [ -1 0 -0 76.8 ] [ -0 0 1 122.722 ] 180 0.7 0.757813
+( 768 256 -384 ) ( -512 256 -384 ) ( 768 256 -287 ) CITYWALL10 [ -1 0 -0 76.8 ] [ -0 0 1 122.722 ] 180 0.7 0.757813
+( -512 256 -384 ) ( 768 256 -384 ) ( -512 320 -384 ) CITYWALL10 [ -1 -0 0 76.8 ] [ -0 1 0 -0 ] 180 0.7 0.5
+( -512 320 -287 ) ( 768 320 -287 ) ( -512 256 -287 ) CITYWALL10 [ -1 -0 0 76.8 ] [ -0 1 0 -0 ] 180 0.7 0.5
+}
+{
+( 768 0 -448 ) ( 768 0 -384 ) ( 768 256 -448 ) CITYFLOOR5 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.7 2
+( -512 256 -448 ) ( -512 256 -384 ) ( -512 0 -448 ) CITYFLOOR5 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.7 2
+( 768 256 -384 ) ( -512 256 -384 ) ( 768 256 -448 ) CITYFLOOR5 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.7 2
+( 768 0 -448 ) ( -512 0 -448 ) ( 768 0 -384 ) CITYFLOOR5 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.7 2
+( -512 0 -448 ) ( 768 0 -448 ) ( -512 256 -448 ) CITYFLOOR5 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.7 2
+( -512 256 -384 ) ( 768 256 -384 ) ( -512 0 -384 ) CITYFLOOR5 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.7 2
+}
+{
+( -512 0 -448 ) ( -512 0 -384 ) ( -512 -288 -448 ) CITYROAD [ 0 0 -1 0 ] [ 0 -1 0 0 ] 90 2.2 1
+( 768 -288 -448 ) ( 768 -288 -384 ) ( 768 0 -448 ) CITYROAD [ 0 0 -1 0 ] [ 0 -1 0 0 ] 90 2.2 1
+( 768 -288 -448 ) ( -512 -288 -448 ) ( 768 -288 -384 ) CITYROAD [ 0 0 -1 0 ] [ -1 0 0 0 ] 90 2.2 1
+( 768 0 -384 ) ( -512 0 -384 ) ( 768 0 -448 ) CITYROAD [ 0 0 -1 0 ] [ -1 0 0 0 ] 90 2.2 1
+( -512 0 -384 ) ( 768 0 -384 ) ( -512 -288 -384 ) CITYROAD [ 0 -1 0 0 ] [ -1 0 0 0 ] 90 2.2 1
+( -512 -288 -448 ) ( 768 -288 -448 ) ( -512 0 -448 ) CITYROAD [ 0 -1 0 0 ] [ -1 0 0 0 ] 90 2.2 1
+}
+{
+( 769 255 -47 ) ( 769 319 -47 ) ( 769 255 -287 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -511 255 -287 ) ( -511 319 -287 ) ( -511 255 -47 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -511 255 -47 ) ( 769 255 -47 ) ( -511 255 -287 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -511 319 -287 ) ( 769 319 -287 ) ( -511 319 -47 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 769 319 -287 ) ( -511 319 -287 ) ( 769 255 -287 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 769 255 -47 ) ( -511 255 -47 ) ( 769 319 -47 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 769 -192 -105 ) ( 769 -192 -41 ) ( 769 256 -105 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -511 256 -105 ) ( -511 256 -41 ) ( -511 -192 -105 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 769 256 -41 ) ( -511 256 -41 ) ( 769 256 -105 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 769 -192 -105 ) ( -511 -192 -105 ) ( 769 -192 -41 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -511 -192 -105 ) ( 769 -192 -105 ) ( -511 256 -105 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -511 256 -41 ) ( 769 256 -41 ) ( -511 -192 -41 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 -352 -388 ) ( -512 -288 -388 ) ( -512 -352 -44 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 768 -352 -44 ) ( 768 -288 -44 ) ( 768 -352 -388 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -288 -388 ) ( 768 -288 -388 ) ( -512 -288 -44 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 -352 -44 ) ( 768 -352 -44 ) ( -512 -352 -388 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 768 -352 -44 ) ( -512 -352 -44 ) ( 768 -288 -44 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 768 -288 -388 ) ( -512 -288 -388 ) ( 768 -352 -388 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( -512 320 -64 ) ( -512 320 -384 ) ( -512 -256 -64 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -576 -256 -64 ) ( -576 -256 -384 ) ( -576 320 -64 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -576 -256 -384 ) ( -576 -256 -64 ) ( -512 -256 -384 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -512 320 -384 ) ( -512 320 -64 ) ( -576 320 -384 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -576 -256 -64 ) ( -576 320 -64 ) ( -512 -256 -64 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -512 -256 -384 ) ( -512 320 -384 ) ( -576 -256 -384 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+{
+( 832 320 -64 ) ( 832 320 -384 ) ( 832 -256 -64 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 768 -256 -64 ) ( 768 -256 -384 ) ( 768 320 -64 ) SKY [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 768 -256 -384 ) ( 768 -256 -64 ) ( 832 -256 -384 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 832 320 -384 ) ( 832 320 -64 ) ( 768 320 -384 ) SKY [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 768 -256 -64 ) ( 768 320 -64 ) ( 832 -256 -64 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 832 -256 -384 ) ( 832 320 -384 ) ( 768 -256 -384 ) SKY [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+}
+}
+{
+"classname" "cycler"
+"angles" "0 90 0"
+"model" "models/PROPS/Lights/streetlight_light.mdl"
+"renderfx" "0"
+"rendermode" "0"
+"renderamt" "0"
+"rendercolor" "0 0 0"
+"origin" "353 33 -384"
+}
+{
+"classname" "info_player_start"
+"angles" "0 0 0"
+"origin" "0 82 -348"
+}
+{
+"classname" "cycler"
+"angles" "0 90 0"
+"model" "models/PROPS/Lights/streetlight_light.mdl"
+"renderfx" "0"
+"rendermode" "0"
+"renderamt" "0"
+"rendercolor" "0 0 0"
+"origin" "158 32 -384"
+}
+{
+"classname" "cycler"
+"angles" "0 90 0"
+"model" "models/PROPS/Lights/streetlight_light.mdl"
+"renderfx" "0"
+"rendermode" "0"
+"renderamt" "0"
+"rendercolor" "0 0 0"
+"origin" "-232 31 -384"
+}
+{
+"classname" "cycler"
+"angles" "0 90 0"
+"model" "models/PROPS/Lights/streetlight_light.mdl"
+"renderfx" "0"
+"rendermode" "0"
+"renderamt" "0"
+"rendercolor" "0 0 0"
+"origin" "-37 32 -384"
+}
+{
+"classname" "cycler"
+"angles" "0 180 0"
+"model" "models/PROPS/Vehicles/volksbagen.mdl"
+"renderfx" "0"
+"rendermode" "0"
+"renderamt" "0"
+"rendercolor" "0 0 0"
+"origin" "144 -84 -384"
+}
+{
+"classname" "cycler"
+"angles" "0 359 0"
+"model" "models/PROPS/Vehicles/car4x4.mdl"
+"renderfx" "0"
+"rendermode" "0"
+"renderamt" "0"
+"rendercolor" "0 0 0"
+"scale" "1"
+"origin" "430 -79 -337"
+}
+{
+"classname" "cycler"
+"spawnflags" "1"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 270 0"
+"model" "models/PROPS/Complementary/City Props/citybarricade.mdl"
+"scale" "1"
+"origin" "491 15 -352"
+}
+{
+"classname" "cycler"
+"spawnflags" "1"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 270 0"
+"model" "models/PROPS/Complementary/City Props/citybarricade.mdl"
+"scale" "1"
+"origin" "432 15 -352"
+}
+{
+"classname" "cycler"
+"spawnflags" "1"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 270 0"
+"model" "models/PROPS/Complementary/City Props/citybarricade.mdl"
+"scale" "1"
+"origin" "312.02 14.98 -352"
+}
+{
+"classname" "cycler"
+"spawnflags" "1"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 270 0"
+"model" "models/PROPS/Complementary/City Props/citybarricade.mdl"
+"scale" "1"
+"origin" "371.02 14.98 -352"
+}
+{
+"classname" "cycler"
+"spawnflags" "1"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 270 0"
+"model" "models/PROPS/Complementary/City Props/citybarricade.mdl"
+"scale" "1"
+"origin" "192.02 14.98 -352"
+}
+{
+"classname" "cycler"
+"spawnflags" "1"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 13 0"
+"model" "models/PROPS/Complementary/City Props/citybarricade.mdl"
+"scale" "1"
+"origin" "273 55 -352"
+}
+{
+"classname" "cycler"
+"spawnflags" "1"
+"rendercolor" "0 0 0"
+"rendermode" "0"
+"renderfx" "0"
+"angles" "0 325 0"
+"model" "models/PROPS/Complementary/civil.mdl"
+"scale" "1"
+"origin" "291.977 -71.0776 -383"
+}
